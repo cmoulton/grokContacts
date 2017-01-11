@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF1E7B11E096D0200A34092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1E7B01E096D0200A34092 /* AppDelegate.swift */; };
+		CFF1E7B61E096D0200A34092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF1E7B41E096D0200A34092 /* Main.storyboard */; };
+		CFF1E7B81E096D0200A34092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF1E7B71E096D0200A34092 /* Assets.xcassets */; };
+		CFF1E7BB1E096D0200A34092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF1E7B91E096D0200A34092 /* LaunchScreen.storyboard */; };
+		CFF1E7C31E096D2100A34092 /* InviteContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1E7C21E096D2100A34092 /* InviteContactsViewController.swift */; };
+		CFF1E7C51E096D6100A34092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1E7C41E096D6100A34092 /* ViewController.swift */; };
+		CFF1E7C81E096E9400A34092 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF1E7C71E096E9400A34092 /* Contacts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFF1E7AD1E096D0200A34092 /* grokContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grokContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF1E7B01E096D0200A34092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF1E7B51E096D0200A34092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF1E7B71E096D0200A34092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF1E7BA1E096D0200A34092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF1E7BC1E096D0200A34092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF1E7C21E096D2100A34092 /* InviteContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteContactsViewController.swift; sourceTree = "<group>"; };
+		CFF1E7C41E096D6100A34092 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFF1E7C71E096E9400A34092 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF1E7AA1E096D0200A34092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF1E7C81E096E9400A34092 /* Contacts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF1E7A41E096D0200A34092 = {
+			isa = PBXGroup;
+			children = (
+				CFF1E7AF1E096D0200A34092 /* grokContacts */,
+				CFF1E7AE1E096D0200A34092 /* Products */,
+				CFF1E7C61E096E9300A34092 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF1E7AE1E096D0200A34092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1E7AD1E096D0200A34092 /* grokContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF1E7AF1E096D0200A34092 /* grokContacts */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1E7B01E096D0200A34092 /* AppDelegate.swift */,
+				CFF1E7B41E096D0200A34092 /* Main.storyboard */,
+				CFF1E7C41E096D6100A34092 /* ViewController.swift */,
+				CFF1E7C21E096D2100A34092 /* InviteContactsViewController.swift */,
+				CFF1E7B71E096D0200A34092 /* Assets.xcassets */,
+				CFF1E7B91E096D0200A34092 /* LaunchScreen.storyboard */,
+				CFF1E7BC1E096D0200A34092 /* Info.plist */,
+			);
+			path = grokContacts;
+			sourceTree = "<group>";
+		};
+		CFF1E7C61E096E9300A34092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1E7C71E096E9400A34092 /* Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF1E7AC1E096D0200A34092 /* grokContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF1E7BF1E096D0200A34092 /* Build configuration list for PBXNativeTarget "grokContacts" */;
+			buildPhases = (
+				CFF1E7A91E096D0200A34092 /* Sources */,
+				CFF1E7AA1E096D0200A34092 /* Frameworks */,
+				CFF1E7AB1E096D0200A34092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grokContacts;
+			productName = grokContacts;
+			productReference = CFF1E7AD1E096D0200A34092 /* grokContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF1E7A51E096D0200A34092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Teak Mobile Inc.";
+				TargetAttributes = {
+					CFF1E7AC1E096D0200A34092 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 87PYA4QFSY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFF1E7A81E096D0200A34092 /* Build configuration list for PBXProject "grokContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF1E7A41E096D0200A34092;
+			productRefGroup = CFF1E7AE1E096D0200A34092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF1E7AC1E096D0200A34092 /* grokContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF1E7AB1E096D0200A34092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF1E7BB1E096D0200A34092 /* LaunchScreen.storyboard in Resources */,
+				CFF1E7B81E096D0200A34092 /* Assets.xcassets in Resources */,
+				CFF1E7B61E096D0200A34092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF1E7A91E096D0200A34092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF1E7C51E096D6100A34092 /* ViewController.swift in Sources */,
+				CFF1E7C31E096D2100A34092 /* InviteContactsViewController.swift in Sources */,
+				CFF1E7B11E096D0200A34092 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFF1E7B41E096D0200A34092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF1E7B51E096D0200A34092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF1E7B91E096D0200A34092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF1E7BA1E096D0200A34092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF1E7BD1E096D0200A34092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF1E7BE1E096D0200A34092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF1E7C01E096D0200A34092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PYA4QFSY;
+				INFOPLIST_FILE = grokContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teakmobile.grokContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFF1E7C11E096D0200A34092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PYA4QFSY;
+				INFOPLIST_FILE = grokContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teakmobile.grokContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF1E7A81E096D0200A34092 /* Build configuration list for PBXProject "grokContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF1E7BD1E096D0200A34092 /* Debug */,
+				CFF1E7BE1E096D0200A34092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF1E7BF1E096D0200A34092 /* Build configuration list for PBXNativeTarget "grokContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF1E7C01E096D0200A34092 /* Debug */,
+				CFF1E7C11E096D0200A34092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF1E7A51E096D0200A34092 /* Project object */;
+}
